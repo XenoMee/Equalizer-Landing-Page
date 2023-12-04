@@ -33,11 +33,18 @@ p{
 
 .content{
     min-height: 100svh;
-    width: 23.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    width: 23.3rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-self: flex-start;
     gap: 2rem;
 }
 
@@ -61,10 +68,6 @@ p{
     background-position: top center;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-}
-
-.container * {
-    margin: 0;
 }
 
 .main-title{
@@ -160,4 +163,10 @@ footer > .main-logo{
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+}
+
+@media (min-width: 48em){
+    .content{
+        min-height: 100vh;
+    }
 }
