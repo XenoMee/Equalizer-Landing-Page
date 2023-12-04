@@ -1,11 +1,11 @@
 *, *::after, *::before {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body{
     background: url("./assets/bg-main-mobile.png") no-repeat; 
     background-position-y: -15rem;
-    margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -40,7 +40,7 @@ p{
 }
 
 .container{
-    width: 23.3rem;
+    width: 23.4rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -51,6 +51,7 @@ p{
 .main-logo{
     width: 10rem;
     object-fit: cover;
+    margin-bottom: 2rem;
 }
 
 .top-section{
@@ -94,10 +95,6 @@ p{
     bottom: 4rem;
 }
 
-.subscription-section * {
-    margin: 0;
-}
-
 .subscription-title{
     font-size: 1.7rem;
 }
@@ -127,6 +124,7 @@ p{
     border-radius: 0.5rem;
     border: none;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -140,10 +138,6 @@ footer{
     justify-content: flex-start;
     align-items: flex-start;
     padding: 1.5rem;
-}
-
-footer > .main-logo{
-    margin-bottom: 2rem;
 }
 
 .copyright,
@@ -163,6 +157,11 @@ footer > .main-logo{
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+}
+
+.social-links img{
+    width: 1.5rem;
+    color: #191826;
 }
 
 @media (min-width: 48em){
