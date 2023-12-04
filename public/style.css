@@ -3,7 +3,9 @@
 }
 
 body{
-    background: url("./assets/bg-main-mobile.png") no-repeat bottom left; 
+    background: url("./assets/bg-main-mobile.png") no-repeat; 
+    background-position-y: -15rem;
+    background-position-x: 3rem;
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
 }
