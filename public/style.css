@@ -190,8 +190,14 @@ footer{
         padding: 0rem;
         width: 45em;
         background: url("./assets/bg-pattern-1.svg") top right no-repeat;
-        background-size: 13.5em;
+        background-size: 18em;
+        background-position-x: 30em;
+        background-position-y: -2em;
         margin-bottom: 10rem;
+    }
+
+    .top-section > .main-logo{
+        margin: 5em 0em;
     }
 
     .main-title{
@@ -201,7 +207,7 @@ footer{
 
     .main-title-description{
         width: 28.5em;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
     .mobile-app{
