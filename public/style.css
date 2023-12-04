@@ -169,4 +169,10 @@ footer > .main-logo{
     .content{
         min-height: 100vh;
     }
+
+    .container{
+        width: 48em;
+        justify-content: center;
+        align-items: center;
+    }
 }
