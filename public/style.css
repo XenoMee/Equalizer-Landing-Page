@@ -4,8 +4,6 @@
 }
 
 body{
-    background: url("./assets/bg-main-mobile.png") top left no-repeat; 
-    background-position-y: -15rem;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -40,6 +38,8 @@ p{
 }
 
 .container{
+    background: url("./assets/bg-main-mobile.png") top left no-repeat; 
+    background-position-y: -15rem;
     width: 23.4rem;
     display: flex;
     flex-direction: column;
@@ -171,29 +171,35 @@ footer{
 
 @media (min-width: 48em){
 
-    body{
-        background: url("./assets/bg-main-tablet.png") top no-repeat;
-        background-position-y: -25em;
-        background-position-x: -25em;
-
-    }
     .content{
         min-height: 100vh;
         flex-direction: row;
     }
 
     .container{
-        background: url("./assets/bg-pattern-1.svg") top right no-repeat;
-        background-size: 15em;
+        background: url("./assets/bg-main-tablet.png") top right no-repeat;
+        background-position-y: -20em;
+        background-position-x: -25em;
         width: 48em;
         justify-content: center;
         align-items: center;
         padding: 1rem;
     }
 
+    .top-section{
+        width: 48em;
+        background: url("./assets/bg-pattern-1.svg") top right no-repeat;
+        background-size: 13.5em;
+    }
+
     .main-title{
-        width: 12em;
-        font-size: 3em;
+        width: 8em;
+        font-size: 3.5em;
+    }
+
+    .main-title-description{
+        width: 28.5em;
+        font-size: 1em;
     }
 
 }
