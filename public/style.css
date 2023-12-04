@@ -33,6 +33,7 @@ p{
 
 .content{
     min-height: 100svh;
+    width: 23.5rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
