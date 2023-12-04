@@ -72,8 +72,7 @@ p{
     background-image: url("./assets/bg-pattern-2.svg");
     background-repeat: no-repeat;
     background-position: top center;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    border-radius: 1rem;
 }
 
 .main-title{
@@ -89,6 +88,7 @@ p{
 }
 
 .subscription-section{
+    max-width: 24rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -182,14 +182,16 @@ footer{
         background-position-x: -25em;
         width: 48em;
         justify-content: center;
-        align-items: center;
-        padding: 1rem;
+        align-items: flex-start;
+        padding: 0rem 2rem;
     }
 
     .top-section{
-        width: 48em;
+        padding: 0rem;
+        width: 45em;
         background: url("./assets/bg-pattern-1.svg") top right no-repeat;
         background-size: 13.5em;
+        margin-bottom: 10rem;
     }
 
     .main-title{
@@ -200,6 +202,26 @@ footer{
     .main-title-description{
         width: 28.5em;
         font-size: 1em;
+    }
+
+    .mobile-app{
+        background-position-y: -1em;
+        background-size: 13.5em;
+        width: 42em;
+        z-index: -1;
+        position: relative;
+    }
+
+    .main-image-app{
+        z-index: 0;
+        position: relative;
+    }
+
+    .subscription-section{
+        z-index: 1;
+        position: relative;
+        bottom: 23em;
+        left: 14em;
     }
 
 }
