@@ -37,7 +37,7 @@ p{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .top-section{
@@ -46,11 +46,15 @@ p{
 }
 
 .main-section{
+    height: 56.5rem;
+}
+
+.mobile-app{
     background-image: url("./assets/bg-pattern-2.svg");
     background-repeat: no-repeat;
     background-position: top center;
-    border-top-right-radius: 0.5rem;
-    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
 }
 
 .container * {
@@ -70,6 +74,7 @@ p{
 }
 
 .subscription-section{
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -77,6 +82,7 @@ p{
     padding: 2rem;
     color: #FCFAF9;
     border-radius: 1rem;
+    bottom: 4rem;
 }
 
 .subscription-section * {
