@@ -7,3 +7,27 @@ body{
     margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+p{
+    line-height: 1.5;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.container * {
+    margin: 0;
+}
