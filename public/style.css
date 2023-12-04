@@ -69,3 +69,36 @@ p{
     left: 4rem;
 }
 
+.subscription-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+    padding: 2rem;
+    color: #FCFAF9;
+}
+
+.subscription-section * {
+    margin: 0;
+}
+
+.subscription-title{
+    font-size: 1.7rem;
+}
+
+.subscription-description{
+    font-size: 1.1rem;
+}
+
+.subscription-availability{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.subscription-price{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-right: 0.5rem;
+}
