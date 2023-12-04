@@ -186,6 +186,9 @@ footer{
         padding: 1rem;
     }
 
-    
+    .main-title{
+        width: 12em;
+        font-size: 3em;
+    }
 
 }
