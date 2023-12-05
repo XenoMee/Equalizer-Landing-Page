@@ -328,6 +328,14 @@ footer > .main-logo{
         font-size: 1.2em;
     }
 
+    .ios:hover{
+        background-color: #66E2DC;
+    }
+
+    .android:hover{
+        background-color: #FFB964;
+    }
+
     footer{
         flex-direction: row;
         justify-content: center;
@@ -345,5 +353,9 @@ footer > .main-logo{
         left: 0;
         margin-top: 0;
         margin-left: 15em;
+    }
+
+    .social-links > img:hover{
+        color: #FA7453;
     }
 }
