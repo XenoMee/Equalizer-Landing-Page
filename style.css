@@ -240,6 +240,7 @@ footer > .main-logo{
 
     footer{
         padding: 0;
+        
     }
 
     .contact-us{
@@ -250,6 +251,7 @@ footer > .main-logo{
         position: relative;
         bottom: 6em;
         left: 37em;
+        margin-top: 0;
     }
 
 }
