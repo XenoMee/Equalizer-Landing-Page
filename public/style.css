@@ -254,3 +254,96 @@ footer > .main-logo{
     }
 
 }
+
+@media (min-width: 90em){
+    .container{
+        background: url("./assets/bg-main-desktop.png") top right no-repeat;
+        background-position-x: -20em;
+        background-position-y: -15em;
+        width: 90em;
+        padding: 0em 5em;
+    }
+
+    .top-section{
+        width: 85em;
+        background-size: 19em;
+        background-position-x: 66em;
+        background-position-y: -2.5em;
+        margin-bottom: 20em;
+    }
+
+    .main-title{
+        width: 12em;
+        font-size: 6em;
+    }
+
+    .main-title-description{
+        width: 43em;
+        font-size: 1.4em;
+    }
+
+    .main-section{
+        height: 45em;
+        margin-bottom: 5em;
+    }
+
+    .mobile-app{
+        width: 75em;
+        background-size: 23em;
+        background-position-x: 21.3em;
+        background-position-y: -5em;
+    }
+
+    .main-image-app{
+        left: 7em;
+        bottom: 11em;
+        max-width: 20em;
+    }
+
+    .subscription-section{
+        left: 40em;
+        max-width: 25em;
+        height: 36em;
+        bottom: 32em;
+        padding: 2.5em;
+    }
+
+    .subscription-title{
+        font-size: 2.5em;
+    }
+
+    .subscription-description{
+        font-size: 1.2em;
+    }
+
+    .subscription-price{
+        font-size: 4em;
+    }
+
+    .subscription-availability{
+        font-size: 1.2em;
+    }
+
+    .btn{
+        font-size: 1.2em;
+    }
+
+    footer{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10em;
+    }
+
+    footer > .main-logo{
+        margin-bottom: 0;
+        align-self: flex-start;
+    }
+
+    .social-links{
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 15em;
+    }
+}
