@@ -356,6 +356,6 @@ footer > .main-logo{
     }
 
     .social-links > img:hover{
-        color: #FA7453;
+        fill: #FA7453;
     }
 }
