@@ -323,5 +323,22 @@ footer{
         font-size: 1.2em;
     }
 
-    
+    footer{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 10em;
+    }
+
+    footer > .main-logo{
+        margin-bottom: 0;
+        align-self: flex-start;
+    }
+
+    .social-links{
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 15em;
+    }
 }
