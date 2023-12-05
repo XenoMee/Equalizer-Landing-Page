@@ -271,6 +271,7 @@ footer{
     }
 
     .main-title-description{
-        
+        width: 43em;
+        font-size: 1.4em;
     }
 }
