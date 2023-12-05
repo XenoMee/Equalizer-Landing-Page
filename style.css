@@ -188,7 +188,6 @@ footer > .main-logo{
         justify-content: center;
         align-items: flex-start;
         padding: 0rem 2em;
-        margin-bottom: 3em;
     }
 
     .top-section{
@@ -262,6 +261,7 @@ footer > .main-logo{
         background-position-y: -15em;
         width: 90em;
         padding: 0em 5em;
+        margin-bottom: 2em;
     }
 
     .top-section{
