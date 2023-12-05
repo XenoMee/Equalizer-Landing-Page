@@ -277,6 +277,11 @@ footer{
         font-size: 1.4em;
     }
 
+    .main-section{
+        height: 45em;
+        margin-bottom: 5em;
+    }
+
     .mobile-app{
         width: 75em;
         background-size: 23em;
@@ -317,4 +322,6 @@ footer{
     .btn{
         font-size: 1.2em;
     }
+
+    
 }
