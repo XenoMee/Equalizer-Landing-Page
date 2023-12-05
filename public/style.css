@@ -253,7 +253,9 @@ footer{
 
 @media (min-width: 90em){
     .container{
-        /* background: url("./assets/bg-main-desktop.png") top right no-repeat; */
+        background: url("./assets/bg-main-desktop.png") top right no-repeat;
+        background-position-x: -20em;
+        background-position-y: -15em;
         width: 90em;
         padding: 0em 5em;
     }
