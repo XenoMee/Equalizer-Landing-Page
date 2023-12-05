@@ -112,7 +112,6 @@ p{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    flex-grow: 1;
 }
 
 .subscription-price{
@@ -265,6 +264,7 @@ footer{
         background-size: 19em;
         background-position-x: 66em;
         background-position-y: -2.5em;
+        margin-bottom: 20em;
     }
 
     .main-title{
@@ -275,5 +275,46 @@ footer{
     .main-title-description{
         width: 43em;
         font-size: 1.4em;
+    }
+
+    .mobile-app{
+        width: 75em;
+        background-size: 23em;
+        background-position-x: 21.3em;
+        background-position-y: -5em;
+    }
+
+    .main-image-app{
+        left: 7em;
+        bottom: 11em;
+        max-width: 20em;
+    }
+
+    .subscription-section{
+        left: 40em;
+        max-width: 25em;
+        height: 36em;
+        bottom: 32em;
+        padding: 2.5em;
+    }
+
+    .subscription-title{
+        font-size: 2.5em;
+    }
+
+    .subscription-description{
+        font-size: 1.2em;
+    }
+
+    .subscription-price{
+        font-size: 4em;
+    }
+
+    .subscription-availability{
+        font-size: 1.2em;
+    }
+
+    .btn{
+        font-size: 1.2em;
     }
 }
