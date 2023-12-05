@@ -11,6 +11,10 @@ p{
     line-height: 1.5;
 }
 
+svg{
+    width: 1.5rem;
+}
+
 .bg-primary-dark{
     background-color: #191826;
 }
@@ -168,9 +172,8 @@ footer > .main-logo{
     gap: 1rem;
 }
 
-.social-links img{
-    width: 1.5rem;
-    color: #191826;
+.social-links svg path{
+    fill: #191826;
 }
 
 @media (min-width: 48em){
@@ -357,7 +360,7 @@ footer > .main-logo{
         margin-left: 15em;
     }
 
-    .social-links > img:hover{
+    .social-links svg path:hover{
         fill: #FA7453;
     }
 }
