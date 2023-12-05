@@ -4,8 +4,6 @@
 }
 
 body{
-    background: url("./assets/bg-main-mobile.png") no-repeat; 
-    background-position-y: -15rem;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -40,10 +38,12 @@ p{
 }
 
 .container{
-    width: 23.5rem;
+    background: url("./assets/bg-main-mobile.png") top left no-repeat; 
+    background-position-y: -15rem;
+    width: 23.4rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     gap: 2rem;
 }
@@ -72,8 +72,7 @@ p{
     background-image: url("./assets/bg-pattern-2.svg");
     background-repeat: no-repeat;
     background-position: top center;
-    border-top-right-radius: 1rem;
-    border-top-left-radius: 1rem;
+    border-radius: 1rem;
 }
 
 .main-title{
@@ -90,6 +89,7 @@ p{
 }
 
 .subscription-section{
+    max-width: 24rem;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -99,10 +99,6 @@ p{
     color: #FCFAF9;
     border-radius: 1rem;
     bottom: 4rem;
-}
-
-.subscription-section * {
-    margin: 0;
 }
 
 .subscription-title{
@@ -133,6 +129,7 @@ p{
     border-radius: 0.5rem;
     border: none;
     font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 1rem;
     font-weight: 700;
 }
 
@@ -148,6 +145,9 @@ footer{
     padding: 1.5rem;
 }
 
+footer > .main-logo{
+    margin-bottom: 2rem;
+}
 
 .copyright,
 .contact-us{
@@ -166,4 +166,91 @@ footer{
     justify-content: flex-start;
     align-items: center;
     gap: 1rem;
+}
+
+.social-links img{
+    width: 1.5rem;
+    color: #191826;
+}
+
+@media (min-width: 48em){
+
+    .content{
+        min-height: 100vh;
+        flex-direction: row;
+    }
+
+    .container{
+        background: url("./assets/bg-main-tablet.png") top right no-repeat;
+        background-position-y: -20em;
+        background-position-x: -25em;
+        width: 48em;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0rem 2em;
+        margin-bottom: 3em;
+    }
+
+    .top-section{
+        padding: 0rem;
+        width: 45em;
+        background: url("./assets/bg-pattern-1.svg") top right no-repeat;
+        background-size: 18em;
+        background-position-x: 30em;
+        background-position-y: -2em;
+        margin-bottom: 10em;
+    }
+
+    .top-section > .main-logo{
+        margin: 5em 0em;
+    }
+
+    .main-title{
+        width: 8em;
+        font-size: 3.5em;
+    }
+
+    .main-title-description{
+        width: 28.5em;
+        font-size: 1.1em;
+    }
+
+    .mobile-app{
+        background-position-y: -1em;
+        background-size: 13.5em;
+        width: 42em;
+        z-index: -1;
+        position: relative;
+    }
+
+    .main-image-app{
+        z-index: 0;
+        position: relative;
+    }
+
+    .subscription-section{
+        z-index: 1;
+        position: relative;
+        bottom: 23em;
+        left: 14em;
+    }
+
+    .main-section{
+        height: 40em;
+    }
+
+    footer{
+        padding: 0;
+    }
+
+    .contact-us{
+        width: 23em;
+    }
+
+    .social-links{
+        position: relative;
+        bottom: 6em;
+        left: 37em;
+    }
+
 }
