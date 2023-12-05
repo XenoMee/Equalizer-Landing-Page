@@ -260,7 +260,17 @@ footer{
 
     .top-section{
         width: 85em;
-        background-position-x: 67em;
-        background-position-y: -2.6em;
+        background-size: 19em;
+        background-position-x: 66em;
+        background-position-y: -2.5em;
+    }
+
+    .main-title{
+        width: 12em;
+        font-size: 6em;
+    }
+
+    .main-title-description{
+        
     }
 }
