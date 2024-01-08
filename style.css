@@ -1,20 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
 *, *::after, *::before {
     box-sizing: border-box;
     margin: 0;
 }
 
 body{
+    margin: 0;
     font-family: 'IBM Plex Sans', sans-serif;
     background-color: #FCFAF9;
-}
-
-p{
     line-height: 1.5;
 }
 
-svg{
-    width: 1.5rem;
-}
 
 .bg-primary-dark{
     background-color: #191826;
