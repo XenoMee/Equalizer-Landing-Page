@@ -29,24 +29,6 @@ body{
 }
 
 
-.bg-primary-dark{
-    background-color: #191826;
-}
-
-.bg-primary-coral{
-    background-color: #FA7453;
-}
-
-.btn-bg-dark{
-    background-color: #191826;
-    color: #FCFAF9;
-}
-
-.btn-bg-white{
-    background-color: #FCFAF9;
-    color: #191826;
-}
-
 .content{
     min-height: 100svh;
     display: flex;
