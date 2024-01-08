@@ -10,9 +10,9 @@
     --fw-normal: 400;
     --fw-bold: 700;
 
-    --fs-default: 1rem;
+    --fs-p: 1.1rem;
     --fs-h1: 2.5rem;
-    --fs-h2:1.7rem;
+    --fs-h2: 1.7rem;
 
 }
 
@@ -73,10 +73,11 @@ body{
     background-repeat: no-repeat;
     background-position: top center;
     border-radius: 1rem;
+    background-color: var(--clr-primary);
 }
 
 .main-title{
-    font-size: 2.5rem;
+    font-size: var(--fs-h1);
     line-height: 1.2;
 }
 
@@ -89,6 +90,8 @@ body{
 }
 
 .subscription-section{
+    background-color: var(--clr-secondary);
+    color: var(--clr-accent);
     max-width: 24rem;
     position: relative;
     display: flex;
@@ -96,17 +99,16 @@ body{
     justify-content: flex-start;
     gap: 1rem;
     padding: 2rem;
-    color: #FCFAF9;
     border-radius: 1rem;
     bottom: 4rem;
 }
 
 .subscription-title{
-    font-size: 1.7rem;
+    font-size: var(--fs-h2);
 }
 
 .subscription-description{
-    font-size: 1.1rem;
+    font-size: var(--fs-p);
 }
 
 .subscription-availability{
@@ -117,7 +119,7 @@ body{
 
 .subscription-price{
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: var(--fw-bold);
     margin-right: 0.5rem;
 }
 
@@ -125,12 +127,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem 0rem;
-    border-radius: 0.5rem;
+    padding: 1em 0em;
+    border-radius: 0.5em;
     border: none;
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 700;
+    font-family: var(--ff-primary);
+    font-size: var(--fs-default);
+    font-weight: var(--fw-bold)
+}
+
+.ios{
+    background-color: var(--clr-primary);
+    color: var(--clr-accent);
 }
 
 .icon{
@@ -151,13 +158,13 @@ footer > .main-logo{
 
 .copyright,
 .contact-us{
-    font-size: 1.1rem;
+    font-size: var(--fs-p);
     margin: 0;
 }
 
 .contact-us-email{
-    font-weight: 700;
-    color: #191826;
+    font-weight: var(--fw-bold);
+    color: var(--clr-primary);
 }
 
 .social-links{
@@ -169,7 +176,7 @@ footer > .main-logo{
 }
 
 .social-links svg path{
-    fill: #191826;
+    fill: var(--clr-primary);
 }
 
 @media (min-width: 48em){
@@ -357,6 +364,6 @@ footer > .main-logo{
     }
 
     .social-links svg path:hover{
-        fill: #FA7453;
+        fill: var(--clr-secondary);
     }
 }
